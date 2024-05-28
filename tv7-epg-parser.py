@@ -11,7 +11,7 @@ import socket
 import time
 
 BASE_URL = "https://tv7api2.tv.init7.net/api/"
-DATE_FORMAT = '%Y%m%d%H%M%S%z'
+DATE_FORMAT = '%Y%m%d%H%M%S %z'
 MAX_DOWNLOADS = 10
 MAX_FILE_AGE = 48*60*60
 TMP_FOLDER = "tmp/"
